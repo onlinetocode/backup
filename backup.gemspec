@@ -33,9 +33,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency "excon", "~> 0.44"
   gem.add_dependency "unf", "0.1.3" # for fog/AWS
   gem.add_dependency "dropbox_api", "0.1.10"
-  gem.add_dependency "net-ssh", "3.2.0"
-  gem.add_dependency "net-scp", "1.2.1"
-  gem.add_dependency "net-sftp", "2.1.2"
+  gem.add_dependency "net-ssh", "> 3.2.0"
+  gem.add_dependency "net-scp", "> 1.2.1"
+  gem.add_dependency "net-sftp", "> 2.1.2"
   gem.add_dependency "mail", "~> 2.6", ">= 2.6.6"
   gem.add_dependency "pagerduty", "2.0.0"
   gem.add_dependency "hipchat", "1.0.1"
